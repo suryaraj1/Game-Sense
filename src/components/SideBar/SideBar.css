@@ -1,0 +1,26 @@
+.sidebar-wrapper {
+  width: 270px;
+  padding: 12px;
+  position: fixed;
+  left: 0;
+  height: 100%;
+  border-right: 1px solid #232323;
+}
+
+.sidebar-heading {
+  color: #fafafa;
+  font-weight: 700;
+  font-size: 27px;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+.sidebar-items-wrapper {
+  padding: 40px;
+  position: fixed;
+  left: 0;
+}
+
+.sidebar-items-wrapper li {
+  color: #fafafa;
+}

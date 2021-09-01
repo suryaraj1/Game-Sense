@@ -1,0 +1,36 @@
+.genre-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.genre-img-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  margin-right: 15px;
+  border-radius: 7px;
+}
+
+.genre-img {
+  height: 40px;
+  width: 40px;
+  flex-shrink: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.genre-text-wrapper {
+  width: 70px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.genre-text {
+  font-weight: 600;
+  color: #fafafa;
+}
