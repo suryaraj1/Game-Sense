@@ -2,9 +2,22 @@ import React from 'react';
 import './GameCard.css';
 
 const GameCard = ({ gameImage, gameTitle, gameDeveloper, gameRating }) => {
+
+    const gameCardImgStyle = {
+        height: "140px",
+        width: "100px",
+        background: "#fff",
+        marginLeft: "10px",
+        borderRadius: "6px",
+        backgroundSize: "cover",
+        backgroundImage: `url(${gameImage})`,
+        backgroundPosition: "50% 50%",
+        // box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
     return (
         <div className='gamecard-wrapper'>
-            <div className='gamecard-img-wrapper'>
+            <div className='gamecard-img-wrapper' style={gameCardImgStyle}>
             </div>
             <div className='gamecard-non-img-wrapper'>
                 <div className='gamecard-details-wrapper'>

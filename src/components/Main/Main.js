@@ -19,7 +19,6 @@ class Main extends React.Component {
     }
 
     render() {
-        console.log(this.state.genreData);
         const { genreData } = this.state;
         return (
             <div className='main-wrapper'>

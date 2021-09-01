@@ -1,4 +1,5 @@
 import React from 'react';
+import GENRE_DATA from '../../genreData';
 import Genre from '../Genre/Genre';
 import './SideBar.css';
 
@@ -34,7 +35,11 @@ class SideBar extends React.Component {
         const { handler } = this.props;
         this.setState({
             genreChoice: selectedGenre
-        }, () => handler(this.state.genreChoice));
+        }, () => {
+            const { genreChoice } = this.state;
+            const genreData = GENRE_DATA[genreChoice];
+            handler(genreData);
+        });
     }
 
     render() {
