@@ -1,9 +1,13 @@
 import React from 'react';
 import './App.css';
+import Header from './components/Header/Header';
 
 const App = () => {
     return (
-        <div />
+        <div>
+            <Header />
+            <hr className="divider"/>
+        </div>
     )
 }
 

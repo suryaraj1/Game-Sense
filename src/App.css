@@ -10,3 +10,8 @@ body {
   font-family: "Nunito Sans";
   background: #121212;
 }
+
+.divider {
+  border-color: #232323;
+  background-color: #232323;
+}
