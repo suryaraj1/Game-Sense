@@ -1,9 +1,9 @@
 import React from 'react';
 import './Genre.css';
 
-const Genre = ({ genreImg, genre }) => {
+const Genre = ({ genreImg, genre, handler }) => {
     return (
-        <div className='genre-wrapper'>
+        <div className='genre-wrapper' onClick={() => handler(genre)}>
             <div className='genre-img-wrapper'>
                 <img className='genre-img'alt="genre-img" src={genreImg}/>
             </div>

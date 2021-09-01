@@ -21,18 +21,35 @@ const genreData = [
     }
 ]
 
-const SideBar = () => {
-    return (
-        <div className='sidebar-wrapper'>
-            <p className='sidebar-heading'>Genres</p>
-            <ul className='sidebar-items-wrapper'>
-                {genreData.map(genreItem => {
-                    const { genreImg, genre } = genreItem;
-                    return <Genre genreImg={genreImg} genre={genre}/>
-                })}
-            </ul>
-        </div>
-    )
+class SideBar extends React.Component {
+
+    constructor(props) {
+        super(props);
+        this.state = {
+            genreChoice: '',
+        }
+    }
+
+    callbackHandler = selectedGenre => {
+        const { handler } = this.props;
+        this.setState({
+            genreChoice: selectedGenre
+        }, () => handler(this.state.genreChoice));
+    }
+
+    render() {
+        return (
+            <div className='sidebar-wrapper'>
+                <p className='sidebar-heading'>Genres</p>
+                <ul className='sidebar-items-wrapper'>
+                    {genreData.map(genreItem => {
+                        const { genreImg, genre } = genreItem;
+                        return <Genre genreImg={genreImg} genre={genre} handler={this.callbackHandler} />
+                    })}
+                </ul>
+            </div>
+        )
+    }
 }
 
 export default SideBar;

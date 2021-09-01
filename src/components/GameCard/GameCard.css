@@ -1,0 +1,86 @@
+.gamecard-wrapper {
+  background: #232323;
+  width: 330px;
+  height: 200px;
+  border-radius: 8px;
+  margin-left: 400px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.gamecard-img-wrapper {
+  height: 140px;
+  width: 100px;
+  background: #fff;
+  margin-left: 10px;
+  border-radius: 6px;
+  background-size: cover;
+  background-image: url("https://media.rawg.io/media/crop/600/400/games/26d/26d4437715bee60138dab4a7c8c59c92.jpg");
+  background-position: 50% 50%;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.gamecard-non-img-wrapper {
+  height: 150px;
+}
+
+.gamecard-details-wrapper {
+  width: 160px;
+  margin-left: 10px;
+}
+
+.gamecard-title-wrapper {
+  margin-bottom: 15px;
+}
+
+.gamecard-title {
+  color: #fafafa;
+  font-weight: 700;
+  font-size: 26px;
+}
+
+.gamecard-developer-wrapper p {
+  font-size: 15px;
+}
+
+.gamecard-developer-static {
+  color: #909090;
+}
+
+.gamecard-developer {
+  color: #fafafa;
+  font-weight: 600;
+}
+
+.gamecard-rating-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 190px;
+  margin-right: 5px;
+}
+
+.gamecard-rating-outer-wrapper {
+  background: green;
+  height: 38px;
+  width: 38px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 7px;
+}
+
+.gamecard-rating-inner-wrapper {
+  height: 35px;
+  width: 35px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #232323;
+}
+
+.gamecard-rating {
+  color: #a0e286;
+}
