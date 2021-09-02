@@ -12,7 +12,7 @@ const GameCard = ({ gameImage, gameTitle, gameDeveloper, gameRating }) => {
         backgroundSize: "cover",
         backgroundImage: `url(${gameImage})`,
         backgroundPosition: "50% 50%",
-        boxShadow: "0px 2px 4px rgba(0, 0, 0, 0.1)"
+        boxShadow: "0px 2px 7px rgba(0, 0, 0, 0.1)"
     }
 
     return (
