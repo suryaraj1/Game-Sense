@@ -44,6 +44,24 @@ const GENRE_DATA = {
             gameTitle: "Assassin's Creed Origins",
             gameDeveloper: 'Ubisoft'
         }
+    ], 'Sports': [
+        {
+            gameImage: 'https://media.rawg.io/media/resize/640/-/games/df4/df415b18835f91a1b4db1da294996ee5.jpg',
+            gameTitle: 'FIFA 21',
+            gameDeveloper: 'Electronic Arts'
+        }, {
+            gameImage: 'https://media.rawg.io/media/crop/600/400/games/031/031af38e6a558d4cd4bf91ee80904cdf.jpg',
+            gameTitle: 'FIFA 20',
+            gameDeveloper: 'Electronic Arts'
+        }, {
+            gameImage: 'https://media.rawg.io/media/resize/640/-/games/6a8/6a805daef1a6eb02d4254fbc3fa74607.jpg',
+            gameTitle: 'Pro Evolution Soccer 2021',
+            gameDeveloper: 'KONAMI'
+        }, {
+            gameImage: 'https://media.rawg.io/media/resize/640/-/games/e63/e634a4493d4771c4eb8e335b24101492.jpg',
+            gameTitle: 'Pro Evolution Soccer 2013',
+            gameDeveloper: 'KONAMI'
+        }
     ]
 }
 
