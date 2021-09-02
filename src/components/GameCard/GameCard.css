@@ -3,8 +3,8 @@
   width: 330px;
   height: 200px;
   border-radius: 8px;
-  margin-left: 400px;
   display: flex;
+  margin: 40px;
   justify-content: space-evenly;
   align-items: center;
 }
