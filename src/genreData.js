@@ -39,6 +39,10 @@ const GENRE_DATA = {
             gameTitle: 'Far Cry 6',
             gameDeveloper: 'Ubisoft',
             gameRating: '84'
+        }, {
+            gameImage: 'https://media.rawg.io/media/crop/600/400/games/336/336c6bd63d83cf8e59937ab8895d1240.jpg',
+            gameTitle: "Assassin's Creed Origins",
+            gameDeveloper: 'Ubisoft'
         }
     ]
 }
