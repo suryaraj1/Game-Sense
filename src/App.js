@@ -7,7 +7,6 @@ const App = () => {
     return (
         <div>
             <Header />
-            <hr className="divider"/>
             <Main />
         </div>
     )
