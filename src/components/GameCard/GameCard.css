@@ -42,8 +42,8 @@
 
 .gamecard-title {
   color: #fafafa;
-  font-weight: 700;
   font-size: 26px;
+  font-weight: bold;
 }
 
 .gamecard-developer-wrapper p {

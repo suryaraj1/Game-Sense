@@ -46,9 +46,9 @@ const GENRE_DATA = {
         }
     ], 'Sports': [
         {
-            gameImage: 'https://media.rawg.io/media/resize/640/-/games/df4/df415b18835f91a1b4db1da294996ee5.jpg',
-            gameTitle: 'FIFA 21',
-            gameDeveloper: 'Electronic Arts'
+            gameImage: 'https://media.rawg.io/media/crop/600/400/games/88c/88c5b4d7c80276c03ff62aebb1a99ad4.jpg',
+            gameTitle: 'Rocket League',
+            gameDeveloper: 'Psyonix'
         }, {
             gameImage: 'https://media.rawg.io/media/crop/600/400/games/031/031af38e6a558d4cd4bf91ee80904cdf.jpg',
             gameTitle: 'FIFA 20',
@@ -61,6 +61,14 @@ const GENRE_DATA = {
             gameImage: 'https://media.rawg.io/media/resize/640/-/games/e63/e634a4493d4771c4eb8e335b24101492.jpg',
             gameTitle: 'Pro Evolution Soccer 2013',
             gameDeveloper: 'KONAMI'
+        }, {
+            gameImage: 'https://media.rawg.io/media/crop/600/400/games/cc5/cc576aa274780702ef93463f5410031e.jpg',
+            gameTitle: 'Tekken 7',
+            gameDeveloper: 'Bandai NAMCO Entertainment'
+        }, {
+            gameImage: 'https://media.rawg.io/media/crop/600/400/games/cb4/cb487ab3c54b81cb685388bab42ec848.jpeg',
+            gameTitle: 'FIFA 18',
+            gameDeveloper: 'Electronic Arts'
         }
     ]
 }
