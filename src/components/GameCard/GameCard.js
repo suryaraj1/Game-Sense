@@ -29,13 +29,6 @@ const GameCard = ({ gameImage, gameTitle, gameDeveloper, gameRating }) => {
                         <p className='gamecard-developer'>{gameDeveloper}</p>
                     </div>
                 </div>
-                <div className='gamecard-rating-wrapper'>
-                    <div className='gamecard-rating-outer-wrapper'>
-                        <div className='gamecard-rating-inner-wrapper'>
-                            <div className='gamecard-rating'>{gameRating}</div>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
     )
