@@ -1,5 +1,5 @@
 .gamecard-wrapper {
-  background: #232323;
+  background: rgb(27, 37, 56);
   width: 330px;
   height: 200px;
   border-radius: 8px;
@@ -8,10 +8,13 @@
   transition: 0.3s ease;
   justify-content: space-evenly;
   align-items: center;
+  border: 1px solid rgba(17, 24, 39, 1);
 }
 
 .gamecard-wrapper:hover {
   transform: translateY(-5px);
+  border: 1px solid #444444;
+  background: transparent;
   box-shadow: rgb(33 33 39 / 37%) 0px 20px 30px -11px;
 }
 
@@ -42,7 +45,7 @@
 
 .gamecard-title {
   color: #fafafa;
-  font-size: 26px;
+  font-size: 24px;
   font-weight: bold;
 }
 

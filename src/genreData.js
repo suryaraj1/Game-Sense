@@ -70,6 +70,12 @@ const GENRE_DATA = {
             gameTitle: 'FIFA 18',
             gameDeveloper: 'Electronic Arts'
         }
+    ], 'Racing': [
+        {
+            gameImage: '',
+            gameTitle: '',
+            gameDeveloper: ''
+        }
     ]
 }
 
