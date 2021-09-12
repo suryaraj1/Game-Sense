@@ -99,6 +99,32 @@ const GENRE_DATA = {
             gameImage: 'https://media.rawg.io/media/resize/640/-/games/30a/30afe3a3cb06849dc032ef3b9295f180.jpg',
             gameTitle: 'Forza Horizon 3',
             gameDeveloper: 'Microsoft Studios'
+        },
+    ], 'Strategy': [
+        {
+            gameImage: 'https://media.rawg.io/media/crop/600/400/games/25c/25c4776ab5723d5d735d8bf617ca12d9.jpg',
+            gameTitle: 'Cities: Skyline',
+            gameDeveloper: "Colossal Order"
+        }, {
+            gameImage: 'https://media.rawg.io/media/crop/600/400/games/260/26023c855f1769a93411d6a7ea084632.jpeg',
+            gameTitle: 'Dragon Age: Inquisition',
+            gameDeveloper: 'BioWare'
+        }, {
+            gameImage: 'https://media.rawg.io/media/resize/640/-/screenshots/e26/e269338124c3c5a991e0f2570f960009.jpg',
+            gameTitle: 'Age of Empires 2',
+            gameDeveloper: 'Ensemble Studios'
+        }, {
+            gameImage: 'https://media.rawg.io/media/crop/600/400/screenshots/5db/5dbf8a9f7e1c166e010b7685b27ce13b.jpg',
+            gameTitle: 'Zoo Tycoon',
+            gameDeveloper: 'Microsoft Studios'
+        }, {
+            gameImage: 'https://media.rawg.io/media/crop/600/400/games/0bd/0bd5646a3d8ee0ac3314bced91ea306d.jpg',
+            gameTitle: 'Company of Heroes 2',
+            gameDeveloper: 'Feral Interactive'
+        }, {
+            gameImage: 'https://media.rawg.io/media/crop/600/400/games/ea6/ea6d85ea0239943ff31a86097fb3fbc3.jpg',
+            gameTitle: 'Jurassic World Evolution',
+            gameDeveloper: 'Frontier Developments'
         }
     ]
 }
