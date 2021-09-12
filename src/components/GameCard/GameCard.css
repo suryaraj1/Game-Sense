@@ -45,12 +45,12 @@
 
 .gamecard-title {
   color: #fafafa;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: bold;
 }
 
 .gamecard-developer-wrapper p {
-  font-size: 15px;
+  font-size: 13px;
 }
 
 .gamecard-developer-static {
