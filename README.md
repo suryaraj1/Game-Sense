@@ -8,7 +8,7 @@
 
 <h2>Project Screenshots:</h2>
 
-![Game Sense screenshot](https://gcdn.pbrd.co/images/ZtNO74HVlRsZ.png?o=1)
+![Game Sense screenshot](https://gcdn.pbrd.co/images/cDyghRINXfUI.png?o=1)
 
   
 <h2>💻 Built with</h2>
