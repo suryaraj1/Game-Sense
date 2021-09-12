@@ -3,6 +3,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   border-bottom: 1px solid #232323;
 }
 
@@ -15,4 +16,10 @@
   font-size: 50px;
   font-weight: 600;
   color: #fafafa;
+}
+
+.header-sub-text {
+  margin-top: 10px;
+  color: #cfcfcf;
+  font-weight: 600;
 }
