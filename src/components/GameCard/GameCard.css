@@ -32,6 +32,9 @@
 
 .gamecard-non-img-wrapper {
   height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .gamecard-details-wrapper {
@@ -63,30 +66,8 @@
 }
 
 .gamecard-rating-wrapper {
-  position: absolute;
-  background: #fff;
-}
-
-.gamecard-rating-outer-wrapper {
-  background: green;
-  height: 38px;
-  width: 38px;
   display: flex;
-  justify-content: center;
+  width: 100%;
+  justify-content: flex-end;
   align-items: center;
-  border-radius: 7px;
-}
-
-.gamecard-rating-inner-wrapper {
-  height: 35px;
-  width: 35px;
-  border-radius: 6px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: #232323;
-}
-
-.gamecard-rating {
-  color: #a0e286;
 }

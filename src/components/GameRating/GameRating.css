@@ -1,0 +1,33 @@
+.gamecard-rating-outer-wrapper {
+  background: #61b37c;
+  height: 39px;
+  position: relative;
+  right: 3px;
+  width: 39px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 7px;
+}
+
+.gamecard-rating-inner-wrapper {
+  height: 36px;
+  width: 91%;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(27, 37, 56);
+}
+
+.gamecard-rating {
+  color: #a0e286;
+}
+
+.gamecard-rating-outer-wrapper.medium {
+  background: #d89741;
+}
+
+.gamecard-rating.medium {
+  color: #d89741;
+}

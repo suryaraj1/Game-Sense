@@ -1,4 +1,5 @@
 import React from 'react';
+import GameRating from '../GameRating/GameRating';
 import './GameCard.css';
 
 const GameCard = ({ gameImage, gameTitle, gameDeveloper, gameRating }) => {
@@ -28,6 +29,9 @@ const GameCard = ({ gameImage, gameTitle, gameDeveloper, gameRating }) => {
                         <p className='gamecard-developer-static'>Developer</p>
                         <p className='gamecard-developer'>{gameDeveloper}</p>
                     </div>
+                </div>
+                <div className='gamecard-rating-wrapper'>
+                    <GameRating gameRating={gameRating}/>
                 </div>
             </div>
         </div>
