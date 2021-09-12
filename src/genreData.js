@@ -72,9 +72,33 @@ const GENRE_DATA = {
         }
     ], 'Racing': [
         {
-            gameImage: '',
-            gameTitle: '',
-            gameDeveloper: ''
+            gameImage: 'https://media.rawg.io/media/crop/600/400/games/786/7863e587bac630de82fca50d799236a9.jpg',
+            gameTitle: 'Forza Horizon 4',
+            gameDeveloper: 'Microsoft Studios'
+        }, {
+            gameImage: 'https://media.rawg.io/media/crop/600/400/games/27b/27b02ffaab6b250cc31bf43baca1fc34.jpg',
+            gameTitle: 'Grid 2',
+            gameDeveloper: 'Codemaster'
+        },
+        {
+            gameImage: 'https://media.rawg.io/media/resize/640/-/games/367/367463d43c2a1465f27e830b5b1334ee.jpg',
+            gameTitle: 'Need for Speed: Hot Pursuit',
+            gameDeveloper: 'Electronic Arts'
+        },
+        {
+            gameImage: 'https://media.rawg.io/media/crop/600/400/games/a57/a57e3c73ca46cbf55b526c828e3545c0.jpg',
+            gameTitle: 'Need for Speed: Payback',
+            gameDeveloper: 'Electronic Arts'
+        },
+        {
+            gameImage: 'https://media.rawg.io/media/resize/640/-/games/1fa/1fa75f0895240b12fc65cc98ae9649fd.jpg',
+            gameTitle: 'Need for Speed: Rivals',
+            gameDeveloper: 'ELectronic Arts'
+        }, 
+        {
+            gameImage: 'https://media.rawg.io/media/resize/640/-/games/30a/30afe3a3cb06849dc032ef3b9295f180.jpg',
+            gameTitle: 'Forza Horizon 3',
+            gameDeveloper: 'Microsoft Studios'
         }
     ]
 }
