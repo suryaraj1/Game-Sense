@@ -4,6 +4,12 @@
   align-items: center;
   cursor: pointer;
   margin-bottom: 20px;
+  padding: 6px;
+  transition: 0.3s ease;
+}
+
+.genre-wrapper:hover p {
+  color: #538aaf;
 }
 
 .genre-img-wrapper {
