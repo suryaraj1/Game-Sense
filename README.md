@@ -21,7 +21,7 @@ The game ratings may be biased as they are all based on my own experiences.
 
 <h2>Project Screenshots:</h2>
 
-![Game Sense screenshot](https://gcdn.pbrd.co/images/cDyghRINXfUI.png?o=1)
+![Game Sense screenshot](https://gcdn.pbrd.co/images/VABpK5ox1OsP.png?o=1)
 
   
 <h2>💻 Built with</h2>
