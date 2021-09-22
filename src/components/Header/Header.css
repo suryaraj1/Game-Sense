@@ -4,7 +4,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  border-bottom: 1px solid #232323;
+  border-bottom: 1px solid #dfdfdf;
 }
 
 .header-text-container {
@@ -15,11 +15,11 @@
 .header-text {
   font-size: 50px;
   font-weight: 600;
-  color: #fafafa;
+  color: #232323;
 }
 
 .header-sub-text {
   margin-top: 10px;
-  color: #cfcfcf;
+  color: #333333;
   font-weight: 600;
 }

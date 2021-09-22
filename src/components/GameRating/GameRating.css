@@ -17,7 +17,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: rgb(27, 37, 56);
+  background: #f2f2f2;
 }
 
 .gamecard-rating {
