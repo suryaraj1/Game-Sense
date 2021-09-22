@@ -15,6 +15,21 @@ const GENRE_DATA = {
             gameTitle: 'BioShock Infinite',
             gameDeveloper: 'Aspyr Media',
             gameRating: 80,
+        }, {
+            gameImage: 'https://media.rawg.io/media/crop/600/400/games/511/5118aff5091cb3efec399c808f8c598f.jpg',
+            gameTitle: 'Red Dead Redemption 2',
+            gameDeveloper: 'Rockstar Games',
+            gameRating: 96,
+        }, {
+            gameImage: 'https://media.rawg.io/media/crop/600/400/games/709/709bf81f874ce5d25d625b37b014cb63.jpg',
+            gameTitle: "Uncharted 4: A Thief's End",
+            gameDeveloper: 'Naughty Dog',
+            gameRating: 92,
+        }, {
+            gameImage: 'https://media.rawg.io/media/crop/600/400/games/15c/15c95a4915f88a3e89c821526afe05fc.jpg',
+            gameTitle: 'Far Cry 3',
+            gameDeveloper: 'Ubisoft',
+            gameRating: 90
         }
     ],'RPG': [
         {
