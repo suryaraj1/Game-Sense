@@ -17,11 +17,11 @@ The game ratings may be biased as they are all based on my own experiences.
 
 <h2>🚀 Demo</h2>
 
-[https://game-sense-mini.netlify.app/](https://game-sense-mini.netlify.app/)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/472213ce-73ae-48f8-9709-b69024f4ea3f/deploy-status)](https://game-sense-mini.netlify.app/)
 
 <h2>Project Screenshots:</h2>
 
-![Game Sense screenshot](https://gcdn.pbrd.co/images/cDyghRINXfUI.png?o=1)
+![Game Sense screenshot](https://gcdn.pbrd.co/images/VABpK5ox1OsP.png?o=1)
 
   
 <h2>💻 Built with</h2>
